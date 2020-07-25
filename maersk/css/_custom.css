@@ -1,0 +1,21 @@
+.blueBtn{background-color: #72C3DC;color: #fff;padding: 1.2rem 1.5rem;width: auto;min-width: 150px;box-shadow: 0 3px 0px #2B8EAD;cursor: pointer;}
+.heading{font-size: 1.5rem;text-align:center;}.textCenter{text-align: center}ul{list-style: none;}
+ul#cardsCnt li{color: #fff;font-size: 5rem;}
+.blueBtn:hover,.blueBtn:active{color: #fff;outline: none;}
+.marginBtm{margin-bottom: 2.5rem;}
+.card{background-color: #fff;height: 100%;text-align: center;vertical-align: middle;padding: 5rem 1rem;}
+.card__hueBlue{background-color: #6F98A8;}
+.card__brightBlue{background-color: #2B8EAD;}
+.card__darkBlue{background-color: #2F454E;}
+.card__colorGrey{background-color: #BFBFBF;}
+
+@media only screen and (max-width:375px){
+    .marginBtm{display: inline-block;}
+    .marginBtm:first-child{margin-right: .5rem;}
+    .heading{background-color: #333;color: #fff;padding: 2rem 1rem;font-size: 2.5rem;}
+    ul#cardsCnt li{background-color: #efefef;border-bottom:2px solid #fff;color: #000;}
+    ul li::before {content: "\2022"; font-weight: bold; display: inline-block; width: 5em; margin-left: -6em;}
+    ul li.card__darkBlue::before {color: #2F454E;}
+    ul li.card__hueBlue::before {color: #6F98A8;}ul li.card__brightBlue::before {color: #2B8EAD;}
+    ul li.card__colorGrey::before {color: #bfbfbf;}
+}
